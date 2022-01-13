@@ -18,11 +18,19 @@ bot.readyCommand({
     code: `$log[Ready on client : $userTag[$clientID]
   
 ----
-  ]
+  
+Lien d'invitation du bot : https://discord.com/api/oauth2/authorize?client_id=$clientID&permissions=8&scope=bot
+   
+----
+]
 Ready on client : $userTag[$clientID]
   
 ----
   
+Lien d'invitation du bot : https://discord.com/api/oauth2/authorize?client_id=$clientID&permissions=8&scope=bot
+   
+----
+
 `
 })
 
